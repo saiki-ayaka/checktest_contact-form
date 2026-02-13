@@ -1,0 +1,17 @@
+.header {
+    background: none;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #b69777;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 32px;
+    font-family: serif;
+}
