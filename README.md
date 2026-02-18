@@ -1,4 +1,3 @@
-markdown
 # check-test お問い合わせフォームの環境構築
 
 ## 1. セットアップ手順
@@ -25,7 +24,6 @@ markdown
 ## 3. 使用技術(実行環境)
     ・Language: PHP 8.1.34
     ・Framework: Laravel 8.83.29
-    #・JavaScript: jquery?(Laravel 8 のデフォルト（Laravel Mixなど）で入っていることが多いですが、使わなければ消してOK)
     ・Database: MYSQL 8.0.26
     ・WebServer: nginx 1.21.1
     ・tool: phpMyAdmin
@@ -33,8 +31,3 @@ markdown
 
 ## 4. データベース設計図（ER図）
 ![ER図](./database-design.drawio.png)
-
-## (?. テーブル一覧)
-- **users**: 利用者情報
-- **categories**: お問い合わせの種類　　（１番最初に作成した。）
-- **contacts**: お問い合わせ詳細
