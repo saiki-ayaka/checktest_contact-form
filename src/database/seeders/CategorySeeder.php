@@ -24,7 +24,7 @@ class CategorySeeder extends Seeder
         ];
 
         foreach ($categories as $category) {
-            Category::create($category);
+            Category::updateOrCreate(['content' => $category['content']], $category);
         }
     }
 }
